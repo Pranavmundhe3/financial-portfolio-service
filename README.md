@@ -2,14 +2,14 @@
 Java, spring boot based project to display monthly and cumulative balance as response using REST API.
 ==========================
 
-Tech stack-
+**Tech stack**-
 
 Java 11, Spring boot 2.7, REST APIs, Microservice, SLF4J Logging, Maven
 
 ==========================
 
 
-Coding standards and style-
+**Coding standards and style**-
 
 1. Following layered architechture to communicate data using web API, 
 Controller layer- API call first reach here and calls particular handler method as defined in GetMapping.
@@ -26,7 +26,7 @@ Service layer- This is where actual business logic resides.
 ==========================
 
 
-Presumptions-
+**Presumptions**-
 
 1. User will give input "year" and balance details will be returned as a response for that year
 2. Transaction can be either credit or debit type. This is to avoid representing amount in negative digit format.
@@ -34,7 +34,7 @@ Presumptions-
 
 ==========================
 
-Answers to questions asked in the assignment/task email-
+**Answers to questions asked in the assignment/task email**-
 
 1. How to design your application so that it is testable?
 -> I used Java 11 with Spring boot framework to design service logic of computing balance details. Java supports different types of testing using frameworks, libraries
@@ -61,7 +61,13 @@ A application JAR file can be created using maven clean build. It will be genera
 
 ==========================
 
+**File structure**-
 
+Find service logic here-
+financial-portfolio-service/src/main/java/com/info/financialportfolioservice/service/impl/BalanceServiceImpl.java
+
+Find API here-
+financial-portfolio-service/src/main/java/com/info/financialportfolioservice/controller/BalanceController.java
 
 
 
